@@ -19,6 +19,7 @@ Python ≥ 3.8, standard library only. Runtime is about 30 s. The output is dete
 | `greek-nt.xml`, `latin-nt.xml` | PROIEL treebank, GitHub, pinned commit `8e388967a1335ed12335ddc655fe46993ee7d57a` (master, 2023-05-02) | Downloaded automatically into `--data-dir` (default `proiel_data/`); cached on later runs |
 | `jordk_mt_mk_lk_jn.tsv` | Jordánszky kódex, Ómagyar Korpusz: <http://omagyarkorpusz.nytud.hu/documents/kodexek/JordK/rmkinput>; the four Gospels were extracted by hand | Local file, passed with `--jordanszky` |
 | `CPDV.txt` | Catholic Public Domain Version, via openbible; one verse per line, `Mark 1:7<TAB>text`; the whole Bible is fine | Local file, passed with `--cpdv` |
+| `parable_list.txt` | List of parables from `https://www.catholic-resources.org/Bible/Parables.htm`| local file|
 
 PROIEL URLs:
 
